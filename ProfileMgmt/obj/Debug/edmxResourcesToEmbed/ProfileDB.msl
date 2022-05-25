@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProfileModelStoreContainer" CdmEntityContainer="ProfileEntities">
+    <EntitySetMapping Name="Marks">
+      <EntityTypeMapping TypeName="ProfileModel.Mark">
+        <MappingFragment StoreEntitySet="Marks">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="SUB1" ColumnName="SUB1" />
+          <ScalarProperty Name="SUB2" ColumnName="SUB2" />
+          <ScalarProperty Name="SUB3" ColumnName="SUB3" />
+          <ScalarProperty Name="SUB4" ColumnName="SUB4" />
+          <ScalarProperty Name="SUB5" ColumnName="SUB5" />
+          <ScalarProperty Name="SUB6" ColumnName="SUB6" />
+          <ScalarProperty Name="TOTAL_MARKS" ColumnName="TOTAL_MARKS" />
+          <ScalarProperty Name="OBTAINED_MARKS" ColumnName="OBTAINED_MARKS" />
+          <ScalarProperty Name="PERCENTAGE" ColumnName="PERCENTAGE" />
+          <ScalarProperty Name="RESULT" ColumnName="RESULT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="ProfileModel.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="P_Name" ColumnName="P_Name" />
+          <ScalarProperty Name="P_Con" ColumnName="P_Con" />
+          <ScalarProperty Name="Permanent_Address" ColumnName="Permanent_Address" />
+          <ScalarProperty Name="Correspondance_Address" ColumnName="Correspondance_Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Batch" ColumnName="Batch" />
+          <ScalarProperty Name="Program" ColumnName="Program" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

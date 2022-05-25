@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE9E426A-C776-43CB-8072-2A443BB72368}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProfileMgmt</RootNamespace>
+    <AssemblyName>ProfileMgmt</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StdInfo.Designer.cs">
+      <DependentUpon>StdInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StdMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StdMarks.Designer.cs">
+      <DependentUpon>StdMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Data.Designer.cs">
+      <DependentUpon>Student_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdInfo.resx">
+      <DependentUpon>StdInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StdMarks.resx">
+      <DependentUpon>StdMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Data.resx">
+      <DependentUpon>Student_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyring-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-user-group-new-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\previous.ico" />
+    <None Include="Resources\next.ico" />
+    <None Include="Resources\last.ico" />
+    <None Include="Resources\winView.ico" />
+    <None Include="Resources\winUpdate.ico" />
+    <None Include="Resources\winSearch.ico" />
+    <None Include="Resources\winDelete.ico" />
+    <None Include="Resources\winAdd.ico" />
+    <None Include="Resources\view-report gen.ico" />
+    <None Include="Resources\update.ico" />
+    <None Include="Resources\search1.ico" />
+    <None Include="Resources\search.ico" />
+    <None Include="Resources\save.ico" />
+    <None Include="Resources\printer.ico" />
+    <None Include="Resources\people.ico" />
+    <None Include="Resources\loginWin.ico" />
+    <None Include="Resources\login.ico" />
+    <None Include="Resources\log off.ico" />
+    <None Include="Resources\locked.ico" />
+    <None Include="Resources\bk2.jpg" />
+    <None Include="Resources\bk3.jpg" />
+    <None Include="Resources\bk4.jpg" />
+    <None Include="Resources\add.ico" />
+    <None Include="Resources\calculator.ico" />
+    <None Include="Resources\clear.png" />
+    <None Include="Resources\delete.ico" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\Exit.ico" />
+    <None Include="Resources\exit1.ico" />
+    <None Include="Resources\fb.ico" />
+    <None Include="Resources\home.ico" />
+    <None Include="Resources\first.ico" />
+    <Content Include="Resources\Icons for Project\Add User.png" />
+    <Content Include="Resources\Icons for Project\add.ico" />
+    <Content Include="Resources\Icons for Project\add1.ico" />
+    <Content Include="Resources\Icons for Project\add2.ico" />
+    <Content Include="Resources\Icons for Project\Button Add.ico" />
+    <Content Include="Resources\Icons for Project\Button Delete.ico" />
+    <Content Include="Resources\Icons for Project\Button Previous.ico" />
+    <Content Include="Resources\Icons for Project\Button Refresh.ico" />
+    <Content Include="Resources\Icons for Project\close.ico" />
+    <Content Include="Resources\Icons for Project\Credits.txt" />
+    <Content Include="Resources\Icons for Project\delete.ico" />
+    <Content Include="Resources\Icons for Project\DeleteRed.ico" />
+    <Content Include="Resources\Icons for Project\Excel_Icon_32.png" />
+    <Content Include="Resources\Icons for Project\home.ico" />
+    <Content Include="Resources\Icons for Project\Home.png" />
+    <Content Include="Resources\Icons for Project\Key.png" />
+    <Content Include="Resources\Icons for Project\Lock.png" />
+    <Content Include="Resources\Icons for Project\Log Off.ico" />
+    <Content Include="Resources\Icons for Project\Magnifier2.ico" />
+    <Content Include="Resources\Icons for Project\people.ico" />
+    <Content Include="Resources\Icons for Project\refresh.ico" />
+    <Content Include="Resources\Icons for Project\Remove User.png" />
+    <Content Include="Resources\Icons for Project\report.ico" />
+    <Content Include="Resources\Icons for Project\save.ico" />
+    <Content Include="Resources\Icons for Project\Search.png" />
+    <Content Include="Resources\Icons for Project\Shutdown_Box_Red.ico" />
+    <Content Include="Resources\Icons for Project\table.ico" />
+    <Content Include="Resources\Icons for Project\User Group.png" />
+    <Content Include="Resources\Icons for Project\view.ico" />
+    <Content Include="Resources\Icons for Project\zoom.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

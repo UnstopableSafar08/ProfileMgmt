@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProfileModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Mark">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Semester" Type="String" MaxLength="4" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="SUB1" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB2" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB3" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB4" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB5" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB6" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="TOTAL_MARKS" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="OBTAINED_MARKS" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="PERCENTAGE" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="RESULT" Type="String" MaxLength="6" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Profile" Relationship="Self.FK_Marks_Profile" FromRole="Marks" ToRole="Profile" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="P_Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="P_Con" Type="Int64" Nullable="false" />
+    <Property Name="Permanent_Address" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correspondance_Address" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="Int64" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DOB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Batch" Type="Int32" Nullable="false" />
+    <Property Name="Program" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Faculty" Type="String" MaxLength="20" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Semester" Type="String" MaxLength="4" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Mark" Relationship="Self.FK_Marks_Profile" FromRole="Profile" ToRole="Marks" />
+  </EntityType>
+  <Association Name="FK_Marks_Profile">
+    <End Role="Profile" Type="Self.Profile" Multiplicity="1" />
+    <End Role="Marks" Type="Self.Mark" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Profile">
+        <PropertyRef Name="Sid" />
+      </Principal>
+      <Dependent Role="Marks">
+        <PropertyRef Name="Sid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProfileEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Marks" EntityType="Self.Mark" />
+    <EntitySet Name="Profiles" EntityType="Self.Profile" />
+    <AssociationSet Name="FK_Marks_Profile" Association="Self.FK_Marks_Profile">
+      <End Role="Profile" EntitySet="Profiles" />
+      <End Role="Marks" EntitySet="Marks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

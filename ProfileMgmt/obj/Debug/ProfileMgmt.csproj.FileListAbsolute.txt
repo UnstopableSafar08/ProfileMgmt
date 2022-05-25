@@ -1,0 +1,102 @@
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe.config
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csprojResolveAssemblyReference.cache
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Form1.resources
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Properties.Resources.resources
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.GenerateResource.Cache
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.pdb
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.exe
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.pdb
+c:\users\unstopable_safar08\documents\visual studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Student_Data.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe.config
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.exe
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.pdb
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.pdb
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csprojResolveAssemblyReference.cache
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Properties.Resources.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Student_Data.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.GenerateResource.Cache
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.menu.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Login.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Search.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.View.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Update.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Delete.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdInfo.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdMarks.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.InsertData.resources
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.dll
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.xml
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Unstopable_Safar08\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Report.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe.config
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.pdb
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.dll
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.xml
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csprojResolveAssemblyReference.cache
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Report.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Search.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdInfo.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Delete.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Login.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.menu.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Properties.Resources.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdMarks.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Student_Data.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Update.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.View.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.GenerateResource.Cache
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.exe
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.pdb
+C:\Users\Sagar Malla\Documents\Visual Studio 2015\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.ResolveComReference.cache
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe.config
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.pdb
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.dll
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.xml
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csprojResolveAssemblyReference.cache
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.ResolveComReference.cache
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Report.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Search.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdInfo.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Delete.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Login.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.menu.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Properties.Resources.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdMarks.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Student_Data.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Update.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.View.resources
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.GenerateResource.Cache
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.exe
+C:\Users\Sagar Malla\Documents\Visual Studio 2012\Projects\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.pdb
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe.config
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.exe
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\ProfileMgmt.pdb
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.dll
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.dll
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.xml
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\bin\Debug\EntityFramework.SqlServer.xml
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csprojResolveAssemblyReference.cache
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.ResolveComReference.cache
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Report.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Search.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdInfo.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Delete.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Login.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.menu.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Properties.Resources.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.StdMarks.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Student_Data.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.Update.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.View.resources
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.csproj.GenerateResource.Cache
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.exe
+E:\sagar\webTest\ProfileMgmt\ProfileMgmt\obj\Debug\ProfileMgmt.pdb

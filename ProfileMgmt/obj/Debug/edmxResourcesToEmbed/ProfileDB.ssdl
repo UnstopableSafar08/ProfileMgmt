@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProfileModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Marks">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Semester" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="SUB1" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB2" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB3" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB4" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB5" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="SUB6" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="TOTAL_MARKS" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="OBTAINED_MARKS" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="PERCENTAGE" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="RESULT" Type="char" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="P_Name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="P_Con" Type="bigint" Nullable="false" />
+    <Property Name="Permanent_Address" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Correspondance_Address" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Phone" Type="bigint" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Gender" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="DOB" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Batch" Type="int" Nullable="false" />
+    <Property Name="Program" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Faculty" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="Semester" Type="char" MaxLength="4" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Marks_Profile">
+    <End Role="Profile" Type="Self.Profile" Multiplicity="1" />
+    <End Role="Marks" Type="Self.Marks" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Profile">
+        <PropertyRef Name="Sid" />
+      </Principal>
+      <Dependent Role="Marks">
+        <PropertyRef Name="Sid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProfileModelStoreContainer">
+    <EntitySet Name="Marks" EntityType="Self.Marks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profile" EntityType="Self.Profile" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Marks_Profile" Association="Self.FK_Marks_Profile">
+      <End Role="Profile" EntitySet="Profile" />
+      <End Role="Marks" EntitySet="Marks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

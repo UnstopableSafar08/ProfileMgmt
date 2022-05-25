@@ -1,0 +1,11 @@
+textField > properties > Action > KeyPress > DoubleClick
+Code: 
+
+private void txtS1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Char ch = e.KeyChar;
+            if (!Char.IsDigit(ch) && ch != 8 && ch != 46)
+            {
+                e.Handled = true;
+            }
+        }

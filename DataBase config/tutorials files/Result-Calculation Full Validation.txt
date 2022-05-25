@@ -1,0 +1,41 @@
+ private void Calc_Click(object sender, EventArgs e)
+        {
+            if (txtS1.Text == "" || txtS2.Text == "" || txtS3.Text == "" || txtS4.Text == "" || txtS5.Text == "" || txtS6.Text == "")
+            {
+                MessageBox.Show("Please Enter Marks !!!", ("TextBox Validation"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                float s1, s2, s3, s4, s5, s6;
+                float tot = 600, obt, per;
+                s1 = float.Parse(txtS1.Text);
+                s2 = float.Parse(txtS2.Text);
+                s3 = float.Parse(txtS3.Text);
+                s4 = float.Parse(txtS4.Text);
+                s5 = float.Parse(txtS5.Text);
+                s6 = float.Parse(txtS6.Text);
+                if (s1 > 100 || s2 > 100 || s3 > 100 || s4 > 100 || s5 > 100 || s6 > 100)
+                {
+                    MessageBox.Show("Please Enter Marks between 1-100 !!!", ("TextBox Validation"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else
+                {
+                    obt = s1 + s2 + s3 + s4 + s5 + s6;
+                    per = (obt / 6);
+
+                    txtObt.Text = obt.ToString();
+                    txtTot.Text = tot.ToString();
+                    txtPer.Text = per.ToString();
+
+                    if (s1 > 31 && s2 > 31 && s3 > 31 && s4 > 31 && s5 > 31 && s6 > 31)
+                    {
+                        txtRes.Text = "PASSED";
+                    }
+                    else
+                        txtRes.Text = "FAILED";
+                }
+
+            }
+        }
